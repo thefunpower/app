@@ -5,7 +5,12 @@ if (!file_exists(__DIR__ . '/../vendor/autoload.php')) {
   echo "composer install";
   exit();
 }
- 
+if (is_dir(__DIR__ . '/../install')) {
+  if (!file_exists(__DIR__ . '/../data/lock')) {
+    header("Location:/install");
+    exit();
+  }
+}
 require __DIR__ . '/app.php';
 require __DIR__ . '/router.php';
 autoload_theme('front');

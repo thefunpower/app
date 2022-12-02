@@ -1,4 +1,7 @@
-<?php
+<?php 
+/*
+    Copyright (c) 2021-2031, All rights reserved.
+    This is NOT a freeware, use is subject to license terms . $ID20221128 
+*/
 
- 
-require __DIR__ . '/boot/index.php'; 
+include __DIR__.'/boot/index.php';

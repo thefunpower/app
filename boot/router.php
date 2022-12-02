@@ -1,9 +1,4 @@
 <?php 
 if(!defined('VERSION')){die();} 
-global $router;    
-
-$router->get("/",function()
-{
-	echo 'welcome';
-	exit;
-});
+global $router;   
+include __DIR__.'/../home.php';
