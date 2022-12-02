@@ -11,8 +11,8 @@ define('DEBUG', true);
 define("ADMIN_DIR_NAME", 'admin-dev');
 define("ADMIN_COOKIE_NAME", 'user_id'); 
 //定义一些路径常量一般不用修改
-define('PATH', __DIR__ . '/');
-define('SYS_PATH', __DIR__ . '/vendor/thefunpower/core/'); 
+define('PATH', __DIR__ . '/../');
+define('SYS_PATH', PATH . '/vendor/thefunpower/core/'); 
 /**
  * 错误提示 
  */
@@ -28,7 +28,7 @@ if (DEBUG) {
   ini_set('log_errors', 'On');
   ini_set('error_log', PATH . '/data/phplog.log');
 }
-include __DIR__ . '/vendor/autoload.php';
+include PATH . '/vendor/autoload.php';
 /**
  * 路由
  * https://github.com/bramus/router
