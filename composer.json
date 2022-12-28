@@ -1,6 +1,7 @@
 {
     "require": {
-        "thefunpower/core": "dev-main"
+        "thefunpower/core": "dev-main",
+        "thefunpower/auth": "dev-main"
     }, 
     "autoload": { 
         "psr-4": {  
