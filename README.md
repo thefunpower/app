@@ -40,3 +40,8 @@ composer install  --ignore-platform-req
 max_input_vars = 5000
 ~~~
  
+### License
+
+It is not a free framework.
+
+Just used to our commerce customers.

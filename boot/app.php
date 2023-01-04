@@ -5,7 +5,7 @@
 */
 
 //版本号
-define('VERSION', "2.1.0");
+define('VERSION', "1.0.1");
 //线上可以关闭PHP错误提示
 define('DEBUG', true);
 define("ADMIN_DIR_NAME", 'admin-dev');
