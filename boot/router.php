@@ -1,4 +1,10 @@
 <?php 
 if(!defined('VERSION')){die();} 
-global $router;   
-include __DIR__.'/../home.php';
+global $router;    
+/**
+* 路由
+* https://github.com/bramus/router
+*/
+$router->get('/',function(){     
+	do_action("index");
+}); 
