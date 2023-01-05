@@ -1,3 +1,10 @@
+
+
+## doucment
+
+http://thefunpower.netlify.qihetaiji.com/
+
+
 ## 配置重写
 
 ~~~
