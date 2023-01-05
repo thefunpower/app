@@ -163,7 +163,7 @@ $misc_config['echarts'] = [
 
 $misc_config['bs5'] = [
 	'node_modules/bootstrap/dist/css/bootstrap.min.css',
-	'node_modules/bootstrap/dist/js/bootstrap.min.js', 
+	'node_modules/bootstrap/dist/js/bootstrap.bundle.min.js', 
 ];
 
 $misc_config['jui'] = [
