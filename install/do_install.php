@@ -106,8 +106,10 @@ $str = "<?php
 \$config['aes_iv']  = md5(" . mt_rand(10000000, 99999999) . "); 
 //前台主题
 \$config['front_theme'] = 'default'; 
-//后台主题
-\$config['theme_admin'] = 'admin-material'; 
+//后台主题 admin-material  admin-top-blue
+\$config['theme_admin'] = 'admin-top-blue';
+//admin-top-blue时可配置sandstone  theme_darkly
+\$config['admin_css'] = 'sandstone'; 
 //时区
 \$config['timezone'] = 'PRC'; 
 //JWT

@@ -1,4 +1,6 @@
-<?php global $config;?>
+<?php 
+global $config,$title;
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head> 
@@ -43,7 +45,7 @@ $menu  = Menu::get();
 
 </style>
 <?php do_action("admin.common.header");?>
-    <title><?= lang($config['title'])?:"控制台"?></title>
+    <title><?= $title?:"运营平台"?></title>
   </head>
   <body>
 <?php 
