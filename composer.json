@@ -1,7 +1,6 @@
 {
     "require": {
-        "thefunpower/core": "dev-main",  
-        "thefunpower/auth": "dev-main",
+        "thefunpower/installer": "dev-main",  
         "mpdf/mpdf": "^8.0",  
         "yurunsoft/chinese-util": "^2.0",  
         "spatie/array-to-xml": "^2.16", 
