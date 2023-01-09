@@ -1,6 +1,4 @@
-
-
-## doucment
+## 手册
 
 http://thefunpower.netlify.qihetaiji.com/
 
@@ -47,8 +45,7 @@ composer install  --ignore-platform-req
 max_input_vars = 5000
 ~~~
  
-### License
 
-It is not a free framework.
+### 开源协议 
 
-Just used to our commerce customers.
+[LICENSE](LICENSE.md)
