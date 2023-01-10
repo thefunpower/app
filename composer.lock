@@ -640,16 +640,16 @@
         },
         {
             "name": "alibabacloud/sdk",
-            "version": "1.8.1642",
+            "version": "1.8.1643",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aliyun/openapi-sdk-php.git",
-                "reference": "1cd6562f6950eb81204e1e4111d8eda45a8576a1"
+                "reference": "236eab8bd4e990d025013d67f89a4948726dccbd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aliyun/openapi-sdk-php/zipball/1cd6562f6950eb81204e1e4111d8eda45a8576a1",
-                "reference": "1cd6562f6950eb81204e1e4111d8eda45a8576a1",
+                "url": "https://api.github.com/repos/aliyun/openapi-sdk-php/zipball/236eab8bd4e990d025013d67f89a4948726dccbd",
+                "reference": "236eab8bd4e990d025013d67f89a4948726dccbd",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -880,7 +880,7 @@
                 "issues": "https://github.com/aliyun/openapi-sdk-php/issues",
                 "source": "https://github.com/aliyun/openapi-sdk-php"
             },
-            "time": "2023-01-06T06:53:47+00:00"
+            "time": "2023-01-09T09:41:29+00:00"
         },
         {
             "name": "alibabacloud/tea",
@@ -8303,12 +8303,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/thefunpower/core.git",
-                "reference": "365e109b24235715435a3febb91cda6199508b8d"
+                "reference": "d3ee3f6375274f7a3484c0c6faaf70848e8c7d21"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thefunpower/core/zipball/365e109b24235715435a3febb91cda6199508b8d",
-                "reference": "365e109b24235715435a3febb91cda6199508b8d",
+                "url": "https://api.github.com/repos/thefunpower/core/zipball/d3ee3f6375274f7a3484c0c6faaf70848e8c7d21",
+                "reference": "d3ee3f6375274f7a3484c0c6faaf70848e8c7d21",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -8363,20 +8363,20 @@
                 "issues": "https://github.com/thefunpower/core/issues",
                 "source": "https://github.com/thefunpower/core/tree/v1.0.1"
             },
-            "time": "2023-01-09T04:01:44+00:00"
+            "time": "2023-01-09T09:52:58+00:00"
         },
         {
             "name": "thefunpower/db_medoo",
-            "version": "v1.0.1",
+            "version": "v1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thefunpower/db_medoo.git",
-                "reference": "6316f8bcf4c9f082d721d6e81101d887cc003d19"
+                "reference": "0b14c69b1da522976320119f0b3e16eb46beba9e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thefunpower/db_medoo/zipball/6316f8bcf4c9f082d721d6e81101d887cc003d19",
-                "reference": "6316f8bcf4c9f082d721d6e81101d887cc003d19",
+                "url": "https://api.github.com/repos/thefunpower/db_medoo/zipball/0b14c69b1da522976320119f0b3e16eb46beba9e",
+                "reference": "0b14c69b1da522976320119f0b3e16eb46beba9e",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -8402,9 +8402,9 @@
             ],
             "support": {
                 "issues": "https://github.com/thefunpower/db_medoo/issues",
-                "source": "https://github.com/thefunpower/db_medoo/tree/v1.0.1"
+                "source": "https://github.com/thefunpower/db_medoo/tree/v1.0.2"
             },
-            "time": "2023-01-09T03:31:49+00:00"
+            "time": "2023-01-09T09:49:55+00:00"
         },
         {
             "name": "thefunpower/installer",
@@ -8412,12 +8412,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/thefunpower/installer.git",
-                "reference": "d169552418feb9ff7bb32300b66ac4f1f75b1289"
+                "reference": "1171f26aef603b1ac4e90d0e86b897478c6a701b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thefunpower/installer/zipball/d169552418feb9ff7bb32300b66ac4f1f75b1289",
-                "reference": "d169552418feb9ff7bb32300b66ac4f1f75b1289",
+                "url": "https://api.github.com/repos/thefunpower/installer/zipball/1171f26aef603b1ac4e90d0e86b897478c6a701b",
+                "reference": "1171f26aef603b1ac4e90d0e86b897478c6a701b",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -8451,9 +8451,9 @@
             ],
             "support": {
                 "issues": "https://github.com/thefunpower/installer/issues",
-                "source": "https://github.com/thefunpower/installer/tree/v1.0.1"
+                "source": "https://github.com/thefunpower/installer/tree/main"
             },
-            "time": "2023-01-09T05:21:37+00:00"
+            "time": "2023-01-09T06:31:09+00:00"
         },
         {
             "name": "thefunpower/license_checker",
@@ -8506,16 +8506,16 @@
         },
         {
             "name": "thefunpower/vue",
-            "version": "v1.0.1",
+            "version": "v1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thefunpower/vue.git",
-                "reference": "78d3f334c128db88a8ee36e500698280c342037a"
+                "reference": "5c5325667fd7738a13308bcdf9e9fe9063804333"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thefunpower/vue/zipball/78d3f334c128db88a8ee36e500698280c342037a",
-                "reference": "78d3f334c128db88a8ee36e500698280c342037a",
+                "url": "https://api.github.com/repos/thefunpower/vue/zipball/5c5325667fd7738a13308bcdf9e9fe9063804333",
+                "reference": "5c5325667fd7738a13308bcdf9e9fe9063804333",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -8550,9 +8550,9 @@
             ],
             "support": {
                 "issues": "https://github.com/thefunpower/vue/issues",
-                "source": "https://github.com/thefunpower/vue/tree/v1.0.1"
+                "source": "https://github.com/thefunpower/vue/tree/v1.0.2"
             },
-            "time": "2023-01-06T07:59:48+00:00"
+            "time": "2023-01-09T14:43:06+00:00"
         },
         {
             "name": "thenorthmemory/xml",
