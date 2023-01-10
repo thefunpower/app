@@ -8367,16 +8367,16 @@
         },
         {
             "name": "thefunpower/db_medoo",
-            "version": "v1.0.2",
+            "version": "v1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thefunpower/db_medoo.git",
-                "reference": "0b14c69b1da522976320119f0b3e16eb46beba9e"
+                "reference": "6316f8bcf4c9f082d721d6e81101d887cc003d19"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thefunpower/db_medoo/zipball/0b14c69b1da522976320119f0b3e16eb46beba9e",
-                "reference": "0b14c69b1da522976320119f0b3e16eb46beba9e",
+                "url": "https://api.github.com/repos/thefunpower/db_medoo/zipball/6316f8bcf4c9f082d721d6e81101d887cc003d19",
+                "reference": "6316f8bcf4c9f082d721d6e81101d887cc003d19",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -8402,9 +8402,9 @@
             ],
             "support": {
                 "issues": "https://github.com/thefunpower/db_medoo/issues",
-                "source": "https://github.com/thefunpower/db_medoo/tree/v1.0.2"
+                "source": "https://github.com/thefunpower/db_medoo/tree/v1.0.1"
             },
-            "time": "2023-01-09T09:49:55+00:00"
+            "time": "2023-01-09T03:31:49+00:00"
         },
         {
             "name": "thefunpower/installer",
