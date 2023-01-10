@@ -1,5 +1,6 @@
 <?php
-//服务器域名 
+//服务器域名
+// 'http://'.$_SERVER['HTTP_HOST'].'/';
 $config['host']    = 'http://'.$_SERVER['HTTP_HOST'].'/';
 //数据库配置 
 // Mysql IP
@@ -28,9 +29,9 @@ $config['cookie_path']   = '/';
 $config['cookie_domain'] = '';
 //redis配置
 $config['redis'] = [
-	'host'=>'193.112.45.178',
-	'port'=>'6379',
-	'auth'=>'111111', 
+	'host'=>'',
+	'port'=>'',
+	'auth'=>'', 
 ];
 //sony_flake 生成订单号
 $config['sony_flake'] = [
@@ -46,7 +47,9 @@ $config['aes_iv']  = md5(36525535);
 //前台主题
 $config['front_theme'] = 'default'; 
 //后台主题
-$config['theme_admin'] = 'admin-material'; 
+$config['theme_admin'] = 'admin-top-blue'; 
+//sandstone  theme_darkly
+$config['admin_css'] = 'sandstone';
 //时区
 $config['timezone'] = 'PRC'; 
 //JWT

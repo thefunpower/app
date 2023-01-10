@@ -1,3 +1,4 @@
+<?php if(!g('iframe_no_menu')){?>
 <?php 
 foreach ($menu as $k=>$v) {
   if(!$v['children']){
@@ -39,4 +40,5 @@ $i=0;foreach ($menu as $v) { $i++;?>
   </div>
   <?php } ?>
 </div> 
+<?php } ?>
 <?php } ?>

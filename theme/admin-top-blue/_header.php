@@ -12,13 +12,14 @@
     <link href="/theme/admin-top-blue/<?= $config['admin_css']?:'theme_darkly'?>.css" rel="stylesheet">
     <link href="/theme/admin-top-blue/app.css" rel="stylesheet">
     <link href="/misc/css/admin.css" rel="stylesheet">
-
+    <script type="text/javascript" src="/misc/js/printThis.js"></script>
     <title><?= $title?:"运营平台"?></title>
   </head>
   <body> 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <?php if(!g('iframe_no_menu')){?>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary"> 
   <div class="container-fluid container">
-    <img src="/misc/img/logo.png" style="height: 30px; margin-right: 5px;">
+    <img src="<?=get_config('logo')?:'/misc/img/logo.png'?>" style="height: 30px; margin-right: 5px;">
     <a class="navbar-brand" href="/<?=ADMIN_DIR_NAME?>">运营后台</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -77,5 +78,6 @@
           <?php }?> 
         </ul> 
     </div>
-  </div>
-</nav>  
+  </div> 
+</nav> 
+<?php }?> 

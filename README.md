@@ -1,7 +1,6 @@
-## 手册
+## 开发手册
 
-http://thefunpower.netlify.qihetaiji.com/
-
+https://thefunpower.netlify.qihetaiji.com/guide/
 
 ## 配置重写
 
@@ -37,7 +36,13 @@ composer install
 ~~~
 composer install  --ignore-platform-req
 ~~~
- 
+
+## 服务器依赖
+
+~~~
+yum install ImageMagick ImageMagick-devel 
+yum install ghostscript
+~~~
 
 ## php.ini
  
@@ -46,6 +51,9 @@ max_input_vars = 5000
 ~~~
  
 
-### 开源协议 
+## 开发代码保持最新
 
-[LICENSE](LICENSE.md)
+~~~
+composer config -g --unset repos.packagist
+composer update thefunpower/core --ignore-platform-reqs
+~~~

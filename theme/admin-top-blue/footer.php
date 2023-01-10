@@ -1,4 +1,4 @@
-  <div style="position: absolute;bottom: 10px;right: 30px;"> 
+  <div style="position: fixed;bottom: 10px;right: 30px;"> 
    PowerBy: <a href="https://thefunpower.netlify.qihetaiji.com/guide/" 
       target="_blank">TheFunpower <?=get_version()?> </a>
   </div> 

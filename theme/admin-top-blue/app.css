@@ -27,3 +27,10 @@
     background-color: #008cba;
     border-color: #008cba;
 }
+.el-button--primary,.el-button--primary:hover {
+    background: #008cba !important;
+}
+.el-button--primary.is-plain {
+    color: #FFF; 
+    border-color: #008cba;
+}

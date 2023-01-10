@@ -196,3 +196,8 @@ function initMap(id,lat,lng,content) {
 function get_ext(file_name){
     return file_name.substring(file_name.lastIndexOf('.') + 1);    
 }
+
+
+function print_ele(ele){
+    $(ele).printThis();
+}
