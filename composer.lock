@@ -368,16 +368,16 @@
         },
         {
             "name": "alibabacloud/dingtalk",
-            "version": "1.5.21",
+            "version": "1.5.22",
             "source": {
                 "type": "git",
                 "url": "https://github.com/alibabacloud-sdk-php/dingtalk.git",
-                "reference": "ebcc0954b32f36961c88885c04b9f39140796168"
+                "reference": "34c3ad4c5f1a66425e2bbfc4d3d922aef889189b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/alibabacloud-sdk-php/dingtalk/zipball/ebcc0954b32f36961c88885c04b9f39140796168",
-                "reference": "ebcc0954b32f36961c88885c04b9f39140796168",
+                "url": "https://api.github.com/repos/alibabacloud-sdk-php/dingtalk/zipball/34c3ad4c5f1a66425e2bbfc4d3d922aef889189b",
+                "reference": "34c3ad4c5f1a66425e2bbfc4d3d922aef889189b",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -488,9 +488,9 @@
             ],
             "description": "Alibaba Cloud Dingtalk SDK Library for PHP",
             "support": {
-                "source": "https://github.com/alibabacloud-sdk-php/dingtalk/tree/1.5.21"
+                "source": "https://github.com/alibabacloud-sdk-php/dingtalk/tree/1.5.22"
             },
-            "time": "2023-01-09T01:39:15+00:00"
+            "time": "2023-01-10T02:55:12+00:00"
         },
         {
             "name": "alibabacloud/endpoint-util",
@@ -640,16 +640,16 @@
         },
         {
             "name": "alibabacloud/sdk",
-            "version": "1.8.1643",
+            "version": "1.8.1645",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aliyun/openapi-sdk-php.git",
-                "reference": "236eab8bd4e990d025013d67f89a4948726dccbd"
+                "reference": "bf7deb737f2aac9d6985f36abfd1bc4dc6dba0db"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aliyun/openapi-sdk-php/zipball/236eab8bd4e990d025013d67f89a4948726dccbd",
-                "reference": "236eab8bd4e990d025013d67f89a4948726dccbd",
+                "url": "https://api.github.com/repos/aliyun/openapi-sdk-php/zipball/bf7deb737f2aac9d6985f36abfd1bc4dc6dba0db",
+                "reference": "bf7deb737f2aac9d6985f36abfd1bc4dc6dba0db",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -880,7 +880,7 @@
                 "issues": "https://github.com/aliyun/openapi-sdk-php/issues",
                 "source": "https://github.com/aliyun/openapi-sdk-php"
             },
-            "time": "2023-01-09T09:41:29+00:00"
+            "time": "2023-01-10T06:13:03+00:00"
         },
         {
             "name": "alibabacloud/tea",
@@ -3884,16 +3884,16 @@
         },
         {
             "name": "overtrue/socialite",
-            "version": "4.7.0",
+            "version": "4.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/overtrue/socialite.git",
-                "reference": "3cd9501ed06a8b26e34218869060c7eb9996f304"
+                "reference": "e55fdf50f8003be8f03a85a7e5a5b7c5716f4c9a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/overtrue/socialite/zipball/3cd9501ed06a8b26e34218869060c7eb9996f304",
-                "reference": "3cd9501ed06a8b26e34218869060c7eb9996f304",
+                "url": "https://api.github.com/repos/overtrue/socialite/zipball/e55fdf50f8003be8f03a85a7e5a5b7c5716f4c9a",
+                "reference": "e55fdf50f8003be8f03a85a7e5a5b7c5716f4c9a",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -3951,7 +3951,7 @@
             ],
             "support": {
                 "issues": "https://github.com/overtrue/socialite/issues",
-                "source": "https://github.com/overtrue/socialite/tree/4.7.0"
+                "source": "https://github.com/overtrue/socialite/tree/4.8.0"
             },
             "funding": [
                 {
@@ -3959,7 +3959,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-12-30T06:50:30+00:00"
+            "time": "2023-01-10T14:29:55+00:00"
         },
         {
             "name": "paragonie/random_compat",
@@ -8367,16 +8367,16 @@
         },
         {
             "name": "thefunpower/db_medoo",
-            "version": "v1.0.1",
+            "version": "v1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thefunpower/db_medoo.git",
-                "reference": "6316f8bcf4c9f082d721d6e81101d887cc003d19"
+                "reference": "1c9a2ea28dc32d31c43c580730df325d88ef3fab"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thefunpower/db_medoo/zipball/6316f8bcf4c9f082d721d6e81101d887cc003d19",
-                "reference": "6316f8bcf4c9f082d721d6e81101d887cc003d19",
+                "url": "https://api.github.com/repos/thefunpower/db_medoo/zipball/1c9a2ea28dc32d31c43c580730df325d88ef3fab",
+                "reference": "1c9a2ea28dc32d31c43c580730df325d88ef3fab",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -8402,9 +8402,9 @@
             ],
             "support": {
                 "issues": "https://github.com/thefunpower/db_medoo/issues",
-                "source": "https://github.com/thefunpower/db_medoo/tree/v1.0.1"
+                "source": "https://github.com/thefunpower/db_medoo/tree/v1.0.2"
             },
-            "time": "2023-01-09T03:31:49+00:00"
+            "time": "2023-01-10T04:07:07+00:00"
         },
         {
             "name": "thefunpower/installer",
@@ -8506,16 +8506,16 @@
         },
         {
             "name": "thefunpower/vue",
-            "version": "v1.0.2",
+            "version": "v1.0.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thefunpower/vue.git",
-                "reference": "5c5325667fd7738a13308bcdf9e9fe9063804333"
+                "reference": "355020facec215cf200beb4a1359021aa9bafd4f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thefunpower/vue/zipball/5c5325667fd7738a13308bcdf9e9fe9063804333",
-                "reference": "5c5325667fd7738a13308bcdf9e9fe9063804333",
+                "url": "https://api.github.com/repos/thefunpower/vue/zipball/355020facec215cf200beb4a1359021aa9bafd4f",
+                "reference": "355020facec215cf200beb4a1359021aa9bafd4f",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -8550,9 +8550,9 @@
             ],
             "support": {
                 "issues": "https://github.com/thefunpower/vue/issues",
-                "source": "https://github.com/thefunpower/vue/tree/v1.0.2"
+                "source": "https://github.com/thefunpower/vue/tree/v1.0.2.1"
             },
-            "time": "2023-01-09T14:43:06+00:00"
+            "time": "2023-01-11T05:30:34+00:00"
         },
         {
             "name": "thenorthmemory/xml",
