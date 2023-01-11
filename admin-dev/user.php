@@ -95,7 +95,7 @@ misc('jquery,vue,node,element,css');
 		</el-table>
 
 		<p>
-			<el-pagination background class="mt10" @size-change="page_size_change" @current-change="page_change" :current-page="page" :page-sizes="<?= el_page_sizes() ?>" :page_size="where.pre_page" layout="total, sizes, prev, pager, next, jumper" :total="total">
+			<el-pagination background class="mt10" @size-change="page_size_change" @current-change="page_change" :current-page="page" :page-sizes="<?= el_page_sizes() ?>" :page_size="where.per_page" layout="total, sizes, prev, pager, next, jumper" :total="total">
 			</el-pagination>
 		</p>
 	</div>

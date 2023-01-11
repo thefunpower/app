@@ -21,16 +21,3 @@
 .body-wrapper{
 	margin:20px;
 }
-
-.el-button--primary,.el-button--primary:hover {
-    color: #FFF;
-    background-color: #008cba;
-    border-color: #008cba;
-}
-.el-button--primary,.el-button--primary:hover {
-    background: #008cba !important;
-}
-.el-button--primary.is-plain {
-    color: #FFF; 
-    border-color: #008cba;
-}

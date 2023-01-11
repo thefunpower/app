@@ -5,5 +5,5 @@ global $router;
 * 路由
 * https://github.com/bramus/router
 */
-$router->get('/',function(){
+$router->get('/',function(){ 
 }); 
