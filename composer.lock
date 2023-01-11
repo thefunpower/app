@@ -8303,12 +8303,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/thefunpower/core.git",
-                "reference": "d3ee3f6375274f7a3484c0c6faaf70848e8c7d21"
+                "reference": "7173a06e0fe4b81fb1c918252516b2f5f0aecdf2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thefunpower/core/zipball/d3ee3f6375274f7a3484c0c6faaf70848e8c7d21",
-                "reference": "d3ee3f6375274f7a3484c0c6faaf70848e8c7d21",
+                "url": "https://api.github.com/repos/thefunpower/core/zipball/7173a06e0fe4b81fb1c918252516b2f5f0aecdf2",
+                "reference": "7173a06e0fe4b81fb1c918252516b2f5f0aecdf2",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -8363,7 +8363,7 @@
                 "issues": "https://github.com/thefunpower/core/issues",
                 "source": "https://github.com/thefunpower/core/tree/v1.0.1"
             },
-            "time": "2023-01-09T09:52:58+00:00"
+            "time": "2023-01-11T10:52:17+00:00"
         },
         {
             "name": "thefunpower/db_medoo",
