@@ -8367,7 +8367,7 @@
         },
         {
             "name": "thefunpower/db_medoo",
-            "version": "v1.0.2",
+            "version": "v1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thefunpower/db_medoo.git",
@@ -8402,7 +8402,7 @@
             ],
             "support": {
                 "issues": "https://github.com/thefunpower/db_medoo/issues",
-                "source": "https://github.com/thefunpower/db_medoo/tree/v1.0.2"
+                "source": "https://github.com/thefunpower/db_medoo/tree/v1.0.1"
             },
             "time": "2023-01-10T04:07:07+00:00"
         },
@@ -8506,16 +8506,16 @@
         },
         {
             "name": "thefunpower/vue",
-            "version": "v1.0.2.1",
+            "version": "v1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thefunpower/vue.git",
-                "reference": "355020facec215cf200beb4a1359021aa9bafd4f"
+                "reference": "1a4aa79bcd242c580330732a6fd21c2dcf752b32"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thefunpower/vue/zipball/355020facec215cf200beb4a1359021aa9bafd4f",
-                "reference": "355020facec215cf200beb4a1359021aa9bafd4f",
+                "url": "https://api.github.com/repos/thefunpower/vue/zipball/1a4aa79bcd242c580330732a6fd21c2dcf752b32",
+                "reference": "1a4aa79bcd242c580330732a6fd21c2dcf752b32",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -8550,9 +8550,9 @@
             ],
             "support": {
                 "issues": "https://github.com/thefunpower/vue/issues",
-                "source": "https://github.com/thefunpower/vue/tree/v1.0.2.1"
+                "source": "https://github.com/thefunpower/vue/tree/v1.0.1"
             },
-            "time": "2023-01-11T05:30:34+00:00"
+            "time": "2023-01-11T06:01:02+00:00"
         },
         {
             "name": "thenorthmemory/xml",
