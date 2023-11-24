@@ -1,0 +1,26 @@
+{
+    "require": {
+        "thefunpower/installer": "^2",  
+        "thefunpower/express_template": "dev-main",  
+        "mpdf/mpdf": "^8.0",   
+        "spatie/array-to-xml": "^2.16",  
+        "picqer/php-barcode-generator": "^2.4", 
+        "iio/libmergepdf": "^3.1",   
+        "intervention/image": "^2.7", 
+        "erusev/parsedown": "^1.7", 
+        "filp/whoops": "^2.14",   
+        "lovefc/captcha": "^0.0.4",
+        "fzaninotto/faker": "^1.5"
+    }, 
+    "autoload": { 
+        "psr-4": {  
+            "plugins\\": "plugins/",
+            "tool\\": "tool/"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": false
+        }
+    }
+}

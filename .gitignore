@@ -1,0 +1,8 @@
+/vendor
+/composer.lock
+/install/lock
+/uploads
+/data/lock
+/config.ini.php
+/data/log
+/data/runtime

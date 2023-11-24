@@ -1,20 +1,3 @@
-#  APP
-
- 
-## 重写
-
-~~~
-location / {
-  if (!-e $request_filename){
-    rewrite ^(.*)$ /index.php last;
-  }
-}
-~~~
-
-
-### SQL
-
-~~~
 CREATE TABLE `config` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `title` varchar(255) NOT NULL,
@@ -33,4 +16,3 @@ CREATE TABLE `plugin` (
   `level` int(11) DEFAULT NULL COMMENT '级别',
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8mb4 COMMENT='插件';
-~~~
