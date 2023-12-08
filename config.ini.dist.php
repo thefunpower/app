@@ -1,5 +1,6 @@
 <?php  
-
+//不启用插件 
+$config['no_plugin']  = true;
 //数据库IP
 $config['host']    = 'http://127.0.0.1:3000';
 $config['db_host'] = '127.0.0.1';

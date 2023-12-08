@@ -14,6 +14,10 @@ location / {
 
 ### SQL
 
+当不启用插件时，不需要`plugin`表
+
+当不使用`get_config` `set_config`时不需要`config`表
+
 ~~~
 CREATE TABLE `config` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
