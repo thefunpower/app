@@ -6,3 +6,4 @@
 /config.ini.php
 /data/log
 /data/runtime
+/data/phplog.log

@@ -11,6 +11,11 @@ location / {
 }
 ~~~
 
+### /api.php
+
+
+[接口文档](/img/ui.jpg)
+
 
 ### SQL
 

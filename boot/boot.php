@@ -40,9 +40,17 @@ location / {
 }
  */
 global $router;
-$router = new \Bramus\Router\Router();
+$router = new \Bramus\Router\Router();   
+//autoload_theme('front');
+//auto_include_router(); 
 include SYS_PATH . '/app.php';
 include __DIR__ . '/helper.php';
+include __DIR__ . '/router.php';
 //开始
 do_action('init');
 $input  = g();
+$router->set404(function() {   
+    auto_load_app_router(['app','']);
+});
+$router->run();
+

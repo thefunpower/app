@@ -10,12 +10,13 @@
         "erusev/parsedown": "^1.7", 
         "filp/whoops": "^2.14",   
         "lovefc/captcha": "^0.0.4",
-        "fzaninotto/faker": "^1.5"
+        "fzaninotto/faker": "^1.5",
+        "zircote/swagger-php": "^4.7"
     }, 
     "autoload": { 
         "psr-4": {  
             "plugins\\": "plugins/",
-            "tool\\": "tool/"
+            "app\\": "app/"
         }
     },
     "config": {
