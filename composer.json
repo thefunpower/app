@@ -1,7 +1,6 @@
 {
     "require": {
-        "thefunpower/installer": "^2",  
-        "thefunpower/express_template": "dev-main",  
+        "thefunpower/installer": "^2",   
         "mpdf/mpdf": "^8.0",   
         "spatie/array-to-xml": "^2.16",  
         "picqer/php-barcode-generator": "^2.4", 
@@ -9,9 +8,7 @@
         "intervention/image": "^2.7", 
         "erusev/parsedown": "^1.7", 
         "filp/whoops": "^2.14",   
-        "lovefc/captcha": "^0.0.4",
-        "fzaninotto/faker": "^1.5",
-        "zircote/swagger-php": "^4.7"
+        "lovefc/captcha": "^0.0.4"
     }, 
     "autoload": { 
         "psr-4": {  

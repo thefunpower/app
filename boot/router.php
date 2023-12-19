@@ -2,7 +2,7 @@
 global $router;
   
 $router->get('/',function(){
-	 echo 'hello';
+	 return view('index');
 });
  
  
