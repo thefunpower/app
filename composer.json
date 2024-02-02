@@ -1,20 +1,30 @@
 {
     "require": {
-        "thefunpower/installer": "^2",   
-        "mpdf/mpdf": "^8.0",   
-        "spatie/array-to-xml": "^2.16",  
-        "picqer/php-barcode-generator": "^2.4", 
-        "iio/libmergepdf": "^3.1",   
-        "intervention/image": "^2.7", 
-        "erusev/parsedown": "^1.7", 
-        "filp/whoops": "^2.14",   
-        "lovefc/captcha": "^0.0.4"
-    }, 
-    "autoload": { 
-        "psr-4": {  
-            "plugins\\": "plugins/",
+        "thefunpower/installer": "^2",
+        "mpdf/mpdf": "^8.0",
+        "spatie/array-to-xml": "^2.16",
+        "picqer/php-barcode-generator": "^2.4",
+        "iio/libmergepdf": "^3.1",
+        "intervention/image": "^2.7",
+        "erusev/parsedown": "^1.7",
+        "filp/whoops": "^2.14",
+        "lovefc/captcha": "^0.0.4",
+        "w7corp/easywechat": "^6",
+        "overtrue/pinyin": "^5.0",
+        "thefunpower/captcha": "^1.0",
+        "thefunpower/two-factor": "^2",
+        "thefunpower/router": "^2",
+        "thefunpower/device": "^2.0",
+        "thefunpower/url_acl":"dev-main"
+    },
+    "autoload": {
+        "psr-4": {
+            "base\\": "base/",
+            "core\\": "core/",
+            "app\\": "app/",
+            "modules\\": "modules/",
             "model\\": "model/",
-            "app\\": "app/"
+            "third_party\\": "third_party/"
         }
     },
     "config": {

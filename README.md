@@ -1,22 +1,34 @@
 #  APP
 
+1.把`config.ini.dist.php` 改为`config.ini.php`
+
+2.修改其中的参数
+
+3.配置Nginx重写
  
 ## 重写
 
 ~~~
+location ~.*\.(sql|pem|md|php) {
+  deny all;
+}  
+location ^~ /theme/ {
+    location ~* \.php$ {
+        deny all;
+    }
+}
 location / {
-  if (!-e $request_filename){
-    rewrite ^(.*)$ /index.php last;
-  }
+    if (!-e $request_filename){
+        rewrite ^(.*)$ /index.php last;
+    }  
+}
+location /uploads/ {
+    try_files $uri /image_cache/index.php/$uri;
 }
 ~~~
  
 
-### SQL
-
-当不启用插件时，不需要`plugin`表
-
-当不使用`get_config` `set_config`时不需要`config`表
+### SQL 
 
 ~~~
 CREATE TABLE `config` (
@@ -25,16 +37,4 @@ CREATE TABLE `config` (
   `body` text,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8mb4 COMMENT='配置';
-
-
-CREATE TABLE `plugin` (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
-  `name` varchar(255) NOT NULL COMMENT '唯一值',
-  `version` varchar(255) DEFAULT NULL COMMENT '版本',
-  `title` varchar(255) NOT NULL COMMENT '插件名',
-  `status` tinyint(1) NOT NULL DEFAULT '0' COMMENT '状态',
-  `data` json DEFAULT NULL COMMENT '数据',
-  `level` int(11) DEFAULT NULL COMMENT '级别',
-  PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8mb4 COMMENT='插件';
 ~~~
