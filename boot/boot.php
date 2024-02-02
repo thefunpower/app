@@ -36,9 +36,9 @@ return IRoute::do(function () {
     //路由存在
 
 }, function () {
-    //路由不存在
-    include PATH . '/404.php';
+    //路由不存在 
     if(is_local()) {
         pr(IRoute::$err);
     }
+    echo view('/error/404');
 });

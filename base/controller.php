@@ -104,7 +104,7 @@ class controller
         $allow_action = $this->allow_action;
         if($allow_action) {
             if(!in_array($this->action, $allow_action)) {
-                echo view('/error/app_cannot_use');
+                echo view('/error/action_not_allow');
                 exit;
             }
         }
