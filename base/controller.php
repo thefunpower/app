@@ -100,19 +100,7 @@ class controller
         $this->init();
         if(!$current_db) {
             $current_db = 'default';
-        }
-        $this->gid = Form::guest_cookie();
-        /**
-         * 对应用开通进行判断，未开通的提示，忽略系统内置的应用
-         */
-        if($this->package != 'modules') {
-            $app_slug = $this->module;
-            $ignore_app_slug = $config['ignore_app_slug'];
-            if($ignore_app_slug && !in_array($app_slug, $ignore_app_slug) && !get_app_is_open($app_slug)) {
-                echo view('/error/app_not_find');
-                exit;
-            }
-        }
+        } 
         $allow_action = $this->allow_action;
         if($allow_action) {
             if(!in_array($this->action, $allow_action)) {
