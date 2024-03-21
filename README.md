@@ -1,4 +1,4 @@
-#  APP
+#  Framework
 
 1.把`config.ini.dist.php` 改为`config.ini.php`
 
