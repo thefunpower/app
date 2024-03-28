@@ -176,3 +176,10 @@ CREATE TABLE `user_meta` (
 # PHP文档
 
 [文档](http://framework-api-doc.qihetaiji.com/)
+
+
+
+# 开源协议 
+
+[Apache License 2.0](LICENSE)
+
